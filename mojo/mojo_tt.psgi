@@ -1,7 +1,6 @@
 use Mojolicious::Lite;
 use MojoX::Renderer::TT;
 use utf8;
-use Path::Class qw/dir/;
 
 # app は Mojolicious::Lite extends Mojolicious
 app->log->level('error');
