@@ -1,0 +1,7 @@
+create table bookmark (
+    id        int(11) not null auto_increment,
+    url       varchar(255) binary unique,
+    title     tinytext,
+    comment   text,
+    primary key (id)
+);
